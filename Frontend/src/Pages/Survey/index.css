@@ -1,0 +1,39 @@
+.survey-bg {
+  background-color: #fff;
+  color: #000;
+  min-height: 100vh;
+  font-family: "HankenGrotesk";
+}
+
+.surv-ls {
+  list-style: none;
+}
+
+.surv-h2 {
+  font-size: 3rem;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.surv-p {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.surv-hold {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+}
+
+.surv-marg {
+  margin-right: 2rem;
+}
+
+.b-bg-surv {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-surv {
+  font-size: 1.75rem;
+}

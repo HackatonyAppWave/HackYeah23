@@ -1,0 +1,30 @@
+.about-bg {
+  background-image: url("../../assets//image2.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: "HankenGrotesk";
+}
+
+.about-h2 {
+  font-size: 6rem;
+  padding-top: 5%;
+  color: #fff;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.about-p {
+  color: #000;
+  font-style: italic;
+  font-size: 2rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 10%;
+}

@@ -1,0 +1,26 @@
+.login-bg {
+  background-color: #fff;
+  min-height: 100vh;
+  position: relative;
+  color: #fff;
+  font-family: "HankenGrotesk";
+}
+
+.log-h2 {
+  font-size: 3rem;
+  color: #000;
+  margin-bottom: 5%;
+}
+
+.inp-txt {
+  font-size: 1.75rem;
+  width: 27.5rem;
+}
+
+.b-bg {
+  background-color: #000;
+}
+
+.btn-p {
+  font-size: 1.75rem;
+}

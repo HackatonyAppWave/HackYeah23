@@ -1,0 +1,46 @@
+.help-bg {
+  min-height: 100vh;
+  background-color: #fff;
+  font-family: "HankenGrotesk";
+}
+
+.help-h2 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 4rem;
+  color: #233dff;
+}
+
+.help-h3 {
+  font-size: 3.5rem;
+  color: #233dff;
+}
+
+.help-p {
+  font-size: 2rem;
+  margin-bottom: 5%;
+}
+
+.help-img1 {
+  background-image: url("../../assets/image3.jpg");
+  margin-bottom: 2%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.help-img2 {
+  background-image: url("../../assets/image4.jpg");
+  margin-bottom: 2%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.help-img3 {
+  background-image: url("../../assets/image5.jpg");
+  margin-bottom: 2%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}

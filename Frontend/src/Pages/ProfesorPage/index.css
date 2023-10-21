@@ -1,0 +1,208 @@
+.profesor-page {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  font-family: "HankenGrotesk", sans-serif;
+  position: relative;
+}
+
+.goback {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.label-chats {
+  padding-left: 20px;
+  font-size: 1.5rem;
+  margin-top: 40px;
+}
+
+.profesor-navigation {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: initial;
+}
+
+.profesor-navigation__list {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-y: scroll;
+}
+
+.profesor-navigation__item {
+  height: 25%;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    #fff 0%,
+    #fff 50%,
+    rgba(0, 0, 0, 0.1) 50%
+  );
+  background-size: 250%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #233dff;
+
+  position: relative;
+
+  /* changes */
+  height: 70px;
+}
+
+.profesor-navigation__h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profesor-navigation__item--chosen {
+  color: #fff;
+
+  background-image: linear-gradient(
+    to right,
+    #233dff 0%,
+    #233dff 50%,
+    rgba(35, 61, 255, 0.8) 50%
+  );
+}
+
+.profesor-navigation__item:hover {
+  background-position: 100%;
+}
+
+.profesor-chat {
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profesor-chat__title {
+  color: #233dff;
+  margin: 3rem 0;
+  font-size: 3.6rem;
+}
+
+.profesor-chat__body {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.profesor-chat__conv {
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.profesor-chat__par {
+  width: 50%;
+  font-size: 1.6rem;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 767) {
+  .profesor-chat__par {
+    font-size: 2.4rem;
+  }
+}
+
+.profesor-chat__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  gap: 1rem;
+  position: relative;
+}
+
+.form__input {
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0.75rem 6.5rem 0.75rem 1rem;
+  transition: all 1s;
+}
+
+.form__btn {
+  height: 90%;
+  border: none;
+  background-color: rgb(35, 61, 255);
+  font-size: 1.6rem;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  position: absolute;
+  right: 0.25rem;
+  color: #fff;
+  font-family: "HankenGrotesk", sans-serif;
+}
+
+.form__btn:disabled {
+  background-color: rgba(31, 65, 225, 0.5);
+}
+
+.conversation {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.message {
+  margin-top: 1rem;
+  font-size: 2rem;
+  list-style: none;
+  width: 50%;
+  padding: 20px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.chat-message {
+  align-self: start;
+  background-color: #dddddd;
+}
+
+.user-message {
+  align-self: end;
+  background-color: beige;
+}

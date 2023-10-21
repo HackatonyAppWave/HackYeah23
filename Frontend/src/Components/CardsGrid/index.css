@@ -1,0 +1,59 @@
+.card {
+  border-radius: 0;
+  font-family: "HankenGrotesk", sans-serif;
+  height: 100%;
+  width: 100%;
+  border: none;
+  transition: all 0.3s;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .card:hover {
+    background-position: 100%;
+    cursor: pointer;
+  }
+}
+
+.card-title {
+  font-size: 2.4rem;
+}
+
+.card--blue {
+  background-image: linear-gradient(
+    to right,
+    #233dff 0%,
+    #233dff 50%,
+    rgba(35, 61, 255, 0.8) 50%
+  );
+  background-size: 250%;
+  color: #ffff;
+}
+
+.card--white {
+  background-image: linear-gradient(
+    to right,
+    #fff 0%,
+    #fff 50%,
+    rgba(0, 0, 0, 0.1) 50%
+  );
+  background-size: 250%;
+  color: #233dff;
+}
+
+.col-link {
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 767px) {
+  .card{
+    height: 100px;
+  }
+}

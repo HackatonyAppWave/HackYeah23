@@ -1,0 +1,38 @@
+.platfrom-page {
+  position: relative;
+  min-height: 100vh;
+  font-family: "HankenGrotesk";
+}
+
+@media (min-width: 993px) {
+  .platform-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .platform-body__title {
+    text-align: left;
+  }
+}
+
+@media (max-width: 992px) {
+  .platform-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .platform-body__title {
+    text-align: center;
+  }
+}
+
+.platform-body__title {
+  font-size: 4.8rem;
+  color: #233dff;
+}
+
+.platform-grid {
+  height: 100vh;
+}
